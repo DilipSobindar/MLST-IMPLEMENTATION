@@ -1,5 +1,5 @@
 no_of_labels=4
-no_of_iterations = 1000
+no_of_iterations = 10
 graph = {
           'a': {('b', 1), ('e', 4),('c',2)},
           'b': {('a',1),('c',  3), ('d',3),('e',4)},

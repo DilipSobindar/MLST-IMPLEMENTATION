@@ -45,7 +45,11 @@ for i in range(0,globals.no_of_iterations):
   b = bin_to_dec(b)
   a = bin_to_dec(a)
   print("values after {} iteration is {} and {} with fitness= {}".format(i,a,b,fitness_val))
-print("solution = {}".format(solution))
+
+print()
+print()
+
+print("final minimum labels for the graph is = {}".format(solution))
 
 #print(mutation(graph,'1001'))
 #print(globals.graph)

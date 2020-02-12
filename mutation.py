@@ -2,13 +2,13 @@ from encode_decode import encode,decode
 from freq_element import *
 from collections import defaultdict
 from check_spanning import *
-graph = {
+"""graph = {
           'a': {'b': 1, 'e': 4,'c':2},
           'b': {'a':1,'c':  3, 'd':3, 'e':4},
           'c': {'a':2,'d':1,'b':3},
           'd': {'b':3,'e':1, 'c':1},
           'e': {'d':1,'a':4,'b':4}
-        }
+        }"""
 def _mutation(s):
     n = len(s)
     if s[0]=='0':
