@@ -2,7 +2,6 @@ from freq_element import dict_create
 from collections import defaultdict
 #dict = dict_create(graph)
 
-
 def create_subset_graph(graph,labels):
     dict = defaultdict(list)
     for nodes in graph:
