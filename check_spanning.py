@@ -8,11 +8,11 @@ def create_subset_graph(graph,labels):
         for neighbours,key in graph[nodes]:
             if key in labels:
                 dict[nodes].append((neighbours,key))
-                #dict[neighbours].append((nodes,key))
+
     return dict
 
 def dfs(graph,visited,node):
-    #print(node,graph[node],visited[node])
+
     visited[node]=1
     #print(node,graph[node],visited[node])
     for neighbours,key in graph[node]:
